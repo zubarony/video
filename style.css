@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+h1,h2,h3,p,a{
+    font-family: ' Oswald ', sans-serif;
+}
+
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+
+
+}
+.header-right{
+
+}
+.header-right ul li{
+    margin-top: 15px;
+    display: inline-block;
+}
+.header-right ul li a{
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    transition: .5s;
+    line-height: 30px;
+
+    
+}
+.header-right ul li a::after{
+    
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: rgb(253, 253, 255);
+    transition:  .6s;
+    
+}
+.header-right ul li a:hover::after{
+    width: 100%;
+    
+   
+
+
+}
+
+.header-right ul li a:hover{
+    background:#00b894 ;
+}
+.header{
+    background:#1be0a9 ;
+    height: auto;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+}
+.header-left img{
+    width: 115px;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+.banner{
+    background: url(https://www.cloudi5.com/asset/images/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.webp) no-repeat;
+    background-size: cover;
+    color: #cfcfcf;
+	height: 823px;
+    
+}
+.banner-caption h1{
+    position: relative;
+    top: 315px;
+    font-size: 70px;
+    color: white;
+    right: 400px;
+    /* background: rgba(0, 0, 0, 0.26); */
+    /* display: inline-block; */
+    
+}
+.banner-caption p{
+    position: relative;
+    top:350px ;
+    font-size: 32px;
+    color: white;
+    right: 445px;
+    /* display: inline-block; */
+    /* background: rgba(0, 0, 0, 0.26); */
+
+}
+.banner-caption a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    top: 405px;
+    right: 445px;
+
+
+}
+.banner-caption a:hover{
+    color: #1be0a9;
+    background: rgb(255, 255, 255);
+}
+.our-service{
+    margin: 60px;
+    line-height: 56px;
+}
+.services{
+    width: 24%;
+    float: left;
+    margin-left: 13px;
+   
+
+}
+.services h3{
+    padding: 10px;
+    font-size: 30px;
+}
+span{
+    font-size: 40px;
+    color:#1be0a9 ;
+}
+.conteiner{
+    margin-top: 60px;
+    border-top: 3px solid #1be0a9;
+}
+.about-us{
+    text-align: center;
+    line-height: 56px;
+    margin: 60px;
+    
+}
+.left-content{
+    float: left;
+
+}
+.left-content img{
+    margin:  30px;
+}
+
+.right-content h3{
+    padding: 30px;
+    
+}
+.contact-us{
+    position: relative;
+    top: 50px;
+}
+
+.contact-us h3{
+    padding: 40px;
+
+}
+.contact{
+    height: 430px;
+    background:#e5e9ee56 ;
+
+
+}
+
+.contacts{
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 300px;
+    top: 171px;
+}
+.footer{
+    height: 70px;
+    background:#1be0a9 ;
+}
+.footer ul li{
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.footer ul li a{
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+}
+.footer-bottom{
+    height: 20px;
+    color: whitesmoke;
+    background:#34495e ;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
